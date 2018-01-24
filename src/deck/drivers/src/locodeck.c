@@ -130,16 +130,17 @@ static lpsAlgoOptions_t algoOptions = {
 
   // To set a static anchor position from startup, uncomment and modify the
   // following code:
-//   .anchorPosition = {
-//     {timestamp: 1, x: 0.99, y: 1.49, z: 1.80},
-//     {timestamp: 1, x: 0.99, y: 3.29, z: 1.80},
-//     {timestamp: 1, x: 4.67, y: 2.54, z: 1.80},
-//     {timestamp: 1, x: 0.59, y: 2.27, z: 0.20},
-//     {timestamp: 1, x: 4.70, y: 3.38, z: 0.20},
-//     {timestamp: 1, x: 4.70, y: 1.14, z: 0.20},
-//   },
-//
-//   .combinedAnchorPositionOk = true,
+  ////// 앵커의 위치 입력하는 곳 - 연구실에 맞게 되어 있지는 않음   //////
+   .anchorPosition = {
+     {timestamp: 1, x: 0.99, y: 1.49, z: 1.80},
+     {timestamp: 1, x: 0.99, y: 3.29, z: 1.80},
+     {timestamp: 1, x: 4.67, y: 2.54, z: 1.80},
+     {timestamp: 1, x: 0.59, y: 2.27, z: 0.20},
+     {timestamp: 1, x: 4.70, y: 3.38, z: 0.20},
+     {timestamp: 1, x: 4.70, y: 1.14, z: 0.20},
+   },
+
+   .combinedAnchorPositionOk = true,
 };
 
 struct {
